@@ -1,0 +1,66 @@
+default  partial alphanumeric_keys modifier_keys
+xkb_symbols "basic" {
+
+    name[Group1]= "Internal Salish";
+
+    // Number row
+    key <TLDE> {[ U0313 ]};
+    key <AE01> {[ 1, exclam ]};
+    key <AE02> {[ 2, at ]};
+    key <AE03> {[ 3, numbersign ]};
+    key <AE04> {[ 4, dollar ]};
+    key <AE05> {[ 5, percent ]};
+    key <AE06> {[ 6, asciicircum ]};
+    key <AE07> {[ 7, ampersand ]};
+    key <AE08> {[ 8, asterisk ]};
+    key <AE09> {[ 9, parenleft ]};
+    key <AE10> {[ 0, parenright ]};
+    key <AE11> {[ U0263, U00B7, equal, plus ]}; // ɣ, minus, underscore
+    key <AE12> {[ U203F, xhbar, minus, underscore ]}; // ‿, equal, plus
+
+    // Top letter row
+    key <AD01> {[ q, Q ]};
+    key <AD02> {[ w, W ]};
+    key <AD03> {[ e, E, U025B ]};
+    key <AD04> {[ r, R ]};
+    key <AD05> {[ t, T ]};
+    key <AD06> {[ y, Y ]};
+    key <AD07> {[ u, U ]};
+    key <AD08> {[ i, I ]};
+    key <AD09> {[ o, O ]};
+    key <AD10> {[ p, P ]};
+
+    key <AD11> { [ U0142, U0141, bracketleft, braceleft ] }; // ł Ł
+    key <AD12> { [ U019B U0313, U019B U0313, bracketright, braceright ] }; // ƛ̓
+
+    // Home row
+    key <AC01> {[ a, A ]};
+    key <AC02> {[ s, S, U0161, U0160 ]};
+    key <AC03> {[ d, D ]};
+    key <AC04> {[ f, F ]};
+    key <AC05> {[ g, G ]};
+    key <AC06> {[ h, H ]};
+    key <AC07> {[ j, J  ]};
+    key <AC08> {[ k, K ]};
+    key <AC09> {[ l, L ]};
+
+    key <AC10> { [ U02B7, U02B7, semicolon, colon ] }; // ʷ
+    key <AC11> { [ U0313, U02BC, apostrophe, quotedbl ] }; // combining comma above & ʔ on shift
+
+    key <BKSL> { [ U0295, U0295, backslash, bar ] }; // ʕ
+
+    // Bottom row
+    key <AB01> { [ z, Z ] };
+    key <AB02> { [ x, X, U0078 U0323, U0078 U0323 ] }; // x̣
+    key <AB03> { [ c, C, U010D U0313, U010D ] }; // č̓
+    key <AB04> { [ v, V ] };
+    key <AB05> { [ b, B ] };
+    key <AB06> { [ n, N, n U0313 ] }; // n̓
+    key <AB07> { [ m, M, m U0313 ] }; // m̓
+    key <AB08> { [ comma, less ] };
+    key <AB09> { [ period, greater ] };
+    key <AB10> { [ slash, question ] };
+
+    include "level3(ralt_switch)"
+};
+

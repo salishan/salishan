@@ -1,0 +1,11 @@
+<layout>
+  <configItem>
+    <name>isalish</name>
+    <shortDescription>sal</shortDescription>
+    <description>Salish (Interior)</description>
+    <languageList>
+      <iso639Id>sal</iso639Id>
+    </languageList>
+  </configItem>
+</layout>
+
