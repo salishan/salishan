@@ -1,0 +1,63 @@
+default  partial alphanumeric_keys modifier_keys
+xkb_symbols "basic" {
+
+    name[Group1]= "Salishan";
+
+    // Number row
+    key <TLDE> {[ grave, asciitilde ]};
+    key <AE01> {[ 1, exclam ]};
+    key <AE02> {[ 2, at ]};
+    key <AE03> {[ 3, numbersign ]};
+    key <AE04> {[ 4, dollar ]};
+    key <AE05> {[ 5, percent ]};
+    key <AE06> {[ 6, asciicircum ]};
+    key <AE07> {[ 7, ampersand ]};
+    key <AE08> {[ 8, asterisk ]};
+    key <AE09> {[ 9, parenleft, U203F ]};
+    key <AE10> {[ 0, parenright, U00B7 ]};
+    key <AE11> {[ minus, underscore ]};
+    key <AE12> {[ equal, plus ]};
+
+    // Top letter row
+    key <AD01> {[ q, Q, U03B8 ]};
+    key <AD02> {[ w, W, U02B7 ]};
+    key <AD03> {[ e, E, U025B ]};
+    key <AD04> {[ r, R, U03C7 ]};
+    key <AD05> {[ t, T, U0166 ]};
+    key <AD06> {[ y, Y, U0263 ]};
+    key <AD07> {[ u, U, U0295 ]};
+    key <AD08> {[ i, I, U0268 ]};
+    key <AD09> {[ o, O, U0241 ]};
+    key <AD10> {[ p, P, U0294 ]};
+    key <AD11> {[ bracketleft, braceleft, U026F ]};
+    key <AD12> {[ bracketright, braceright ]};
+
+    // Home row
+    key <AC01> {[ a, A, U023A ]};
+    key <AC02> {[ s, S, U026C ]};
+    key <AC03> {[ d, D, U026B ]};
+    key <AC04> {[ f, F, U0283 ]};
+    key <AC05> {[ g, G, U0262 ]};
+    key <AC06> {[ h, H, U0259 ]};
+    key <AC07> {[ j, J, U0269 ]};
+    key <AC08> {[ k, K, U02BC ]};
+    key <AC09> {[ l, L, U019B ]};
+    key <AC10> {[ semicolon, colon, U02A6 ]};
+    key <AC11> {[ apostrophe, quotedbl, U02A7 ]};
+
+    key <BKSL> {[ backslash, bar ]};
+
+    // Bottom row
+    key <AB01> {[ z, Z, U0313 ]};
+    key <AB02> {[ x, X, U0301 ]}; 
+    key <AB03> {[ c, C, U0304 ]};
+    key <AB04> {[ v, V, U0303 ]};
+    key <AB05> {[ b, B, U030C ]};
+    key <AB06> {[ n, N, U0335 ]};
+    key <AB07> {[ m, M, U0334 ]};
+    key <AB08> {[ comma, less, U0323 ]};
+    key <AB09> {[ period, greater, U031E ]};
+    key <AB10> {[ slash, question, U0331 ]};
+
+    include "level3(ralt_switch)"
+};
