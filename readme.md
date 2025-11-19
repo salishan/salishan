@@ -86,10 +86,6 @@ i e ɛ a u o ə ̵i
 
 ---
 
-Perfect! I’ve cleaned up the **Shuswap / Secwepemctsin section** to only show what is truly missing or partially missing on your Spokane Salish keyboard. Everything else that can be typed using **dead keys or base keys** is now considered supported.
-
----
-
 ### 6. Shuswap / Secwepemctsin (Secwepemctsín / Sxwépemcstin)
 
 #### Consonants
