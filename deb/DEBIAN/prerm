@@ -3,18 +3,18 @@ set -e
 set -x  # Debug: show commands
 
 RULES_DIR="/usr/share/X11/xkb/rules"
-DOC_DIR="/usr/share/doc/isalish-keyboard"
-LAYOUT_NAME="isalish"
+DOC_DIR="/usr/share/doc/salishan-keyboard"
+LAYOUT_NAME="salishan"
 
-echo "Removing Salish (Interior) keyboard layout entries..."
+echo "Removing Salishan keyboard layout entries..."
 
 # -----------------------------
 # Remove from .lst files
 # -----------------------------
 for FILE in base.lst evdev.lst; do
     TARGET_FILE="$RULES_DIR/$FILE"
-		if grep -q "  sal             Salish (Interior)" "$TARGET_FILE"; then
-			 sed -i "/  sal             Salish (Interior)/d" "$TARGET_FILE"
+		if grep -q "  sal             Salishan" "$TARGET_FILE"; then
+			 sed -i "/  sal             Salishan/d" "$TARGET_FILE"
         echo "→ Removed $LAYOUT_NAME from $TARGET_FILE"
     fi
 done
@@ -25,7 +25,7 @@ done
 for FILE in base.xml evdev.xml; do
     TARGET_FILE="$RULES_DIR/$FILE"
     if grep -q "<name>$LAYOUT_NAME</name>" "$TARGET_FILE"; then
-        perl -0777 -i -pe 's#<layout>\s*<configItem>\s*<name>isalish</name>.*?</layout>\n##s' "$TARGET_FILE"
+        perl -0777 -i -pe 's#<layout>\s*<configItem>\s*<name>salishan</name>.*?</layout>\n##s' "$TARGET_FILE"
         echo "→ Removed $LAYOUT_NAME layout block from $TARGET_FILE"
     fi
 done
@@ -35,5 +35,5 @@ done
 # -----------------------------
 rm -rf "$DOC_DIR"
 
-echo "🧹 Salish (Interior) layout removed."
+echo "🧹 Salishan layout removed."
 

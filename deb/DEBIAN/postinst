@@ -6,11 +6,11 @@ set -x  # Debug: prints commands as they run
 # Configuration
 # -----------------------------
 RULES_DIR="/usr/share/X11/xkb/rules"
-DOC_DIR="/usr/share/doc/isalish-keyboard"
-LAYOUT_NAME="isalish"
+DOC_DIR="/usr/share/doc/salishan-keyboard"
+LAYOUT_NAME="salishan"
 
 # Paths inside the .deb (relative to the installed package)
-SNIPPET_SRC_DIR="/usr/share/doc/isalish-keyboard"  # Will copy files here first
+SNIPPET_SRC_DIR="/usr/share/doc/salishan-keyboard"  # Will copy files here first
 SNIPPET_XML="layout_snippet.xml"
 SNIPPET_LST="layout_snippet.lst"
 
@@ -19,8 +19,8 @@ SNIPPET_LST="layout_snippet.lst"
 # -----------------------------
 install -d "$DOC_DIR"
 
-cp -f "/usr/share/doc/isalish-keyboard/snippets/$SNIPPET_XML" "$DOC_DIR/$SNIPPET_XML"
-cp -f "/usr/share/doc/isalish-keyboard/snippets/$SNIPPET_LST" "$DOC_DIR/$SNIPPET_LST"
+cp -f "/usr/share/doc/salishan-keyboard/snippets/$SNIPPET_XML" "$DOC_DIR/$SNIPPET_XML"
+cp -f "/usr/share/doc/salishan-keyboard/snippets/$SNIPPET_LST" "$DOC_DIR/$SNIPPET_LST"
 
 echo "📄 Copied layout snippets to $DOC_DIR"
 
@@ -29,8 +29,8 @@ echo "📄 Copied layout snippets to $DOC_DIR"
 # -----------------------------
 for FILE in base.lst evdev.lst; do
     TARGET_FILE="$RULES_DIR/$FILE"
-		if ! grep -q "Salish (Interior)" "$TARGET_FILE"; then
-			 sed -i "/! layout/a\  sal             Salish (Interior)" "$TARGET_FILE"
+		if ! grep -q "Salishan" "$TARGET_FILE"; then
+			 sed -i "/! layout/a\  sal             Salishan" "$TARGET_FILE"
         echo "→ Added $LAYOUT_NAME to $TARGET_FILE"
     else
         echo "→ $LAYOUT_NAME already present in $TARGET_FILE"
@@ -50,5 +50,5 @@ for FILE in base.xml evdev.xml; do
     fi
 done
 
-echo "✅ Salish (Interior) keyboard layout installation complete."
+echo "✅ Salishan keyboard layout installation complete."
 

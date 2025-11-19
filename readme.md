@@ -11,13 +11,19 @@
 #### Consonants
 
 ```
-p p̓ t t̓ k k̓ q q̓ ʔ ʕ s š x h m n l ɬ y w
+p p̓ t t̓ k k̓ q q̓ ʔ ʕ s š x h m n l ɬ y w
 ```
 
 #### Vowels
 
 ```
 i e ɛ a u o ə ̵i
+```
+
+#### Other Characters
+
+```
+ˀ ̓ ̌ ̵
 ```
 
 ---
@@ -27,13 +33,19 @@ i e ɛ a u o ə ̵i
 #### Consonants
 
 ```
-p p̓ t t̓ k k̓ q q̓ ʔ ʕ s š x h m n l ɬ y w
+p p̓ t t̓ k k̓ q q̓ ʔ ʕ s š x h m n l ɬ y w
 ```
 
 #### Vowels
 
 ```
 i e ɛ a u o ə ̵i
+```
+
+#### Other Characters
+
+```
+ˀ ̓ ̌ ̵
 ```
 
 ---
@@ -43,13 +55,19 @@ i e ɛ a u o ə ̵i
 #### Consonants
 
 ```
-p p̓ t t̓ k k̓ q q̓ ʔ ʕ s š x h m n l ɬ y w
+p p̓ t t̓ k k̓ q q̓ ʔ ʕ s š x h m n l ɬ y w
 ```
 
 #### Vowels
 
 ```
 i e ɛ a u o ə ̵i
+```
+
+#### Other Characters
+
+```
+ˀ ̓ ̌ ̵
 ```
 
 ---
@@ -59,13 +77,19 @@ i e ɛ a u o ə ̵i
 #### Consonants
 
 ```
-p p̓ t t̓ k k̓ q q̓ ʔ ʕ s š x h m n l ɬ y w
+p p̓ t t̓ k k̓ q q̓ ʔ ʕ s š x h m n l ɬ y w
 ```
 
 #### Vowels
 
 ```
 i e ɛ a u o ə ̵i
+```
+
+#### Other Characters
+
+```
+ˀ ̓ ̌ ̵
 ```
 
 ---
@@ -75,13 +99,19 @@ i e ɛ a u o ə ̵i
 #### Consonants
 
 ```
-p p̓ t t̓ k k̓ q q̓ ʔ ʕ s š x h m n l ɬ y w
+p p̓ t t̓ k k̓ q q̓ ʔ ʕ s š x h m n l ɬ y w
 ```
 
 #### Vowels
 
 ```
 i e ɛ a u o ə ̵i
+```
+
+#### Other Characters
+
+```
+ˀ ̓ ̌ ̵
 ```
 
 ---
@@ -100,6 +130,12 @@ i e ɛ a u o ə ̵i
 ɛ ə i e a u o ā ī ū ɛ̄ ə̄
 ```
 
+#### Other Characters
+
+```
+ˀ ̓ ̄ ʷ
+```
+
 ---
 
 ### 7. Nłeʔkepmxcín (Thompson River Salish)
@@ -114,6 +150,12 @@ i e ɛ a u o ə ̵i
 
 ```
 ɛ ə i e a u o ā ī ū ɛ̄ ə̄
+```
+
+#### Other Characters
+
+```
+ˀ ̓ ̄ ʷ
 ```
 
 ---
@@ -132,6 +174,12 @@ i e ɛ a u o ə ̵i
 ɛ ə i e a u o
 ```
 
+#### Other Characters
+
+```
+ˀ ̓ ʷ
+```
+
 ---
 
 ### 9. Bela Coola (Nuxalk)
@@ -146,6 +194,12 @@ i e ɛ a u o ə ̵i
 
 ```
 ɛ ə i e a u o
+```
+
+#### Other Characters
+
+```
+ˀ ̓ ʷ
 ```
 
 ---
@@ -164,6 +218,12 @@ i e ɛ a u o ə ̵i
 i e a u o ə
 ```
 
+#### Other Characters
+
+```
+ˀ ʷ
+```
+
 ---
 
 ### 11. Straits Salish (Lk̓wungen, SENĆOŦEN, Saanich)
@@ -178,6 +238,12 @@ i e a u o ə
 
 ```
 ə
+```
+
+#### Other Characters
+
+```
+acute dead key, underline dead key (U0331)
 ```
 
 ---
@@ -196,6 +262,12 @@ ch kw tl’ ḵ x̱ w̱ 7
 i e a u o ə
 ```
 
+#### Other Characters
+
+```
+̓ ̱
+```
+
 ---
 
 ### 13. Comox (K’ómoks / ɬaʔamɩn)
@@ -210,6 +282,12 @@ i e a u o ə
 
 ```
 i e a u o ə ɨ ɩ ɯ
+```
+
+#### Other Characters
+
+```
+̓ ʷ
 ```
 
 ---
@@ -228,10 +306,10 @@ i e a u o ə ɨ ɩ ɯ
 i e a u o ə ɨ
 ```
 
-#### Missings
+#### Other Characters
 
 ```
-rare ejectives or lateral affricates not on keyboard
+̓ ʷ ̌
 ```
 
 ---
@@ -250,10 +328,10 @@ rare ejectives or lateral affricates not on keyboard
 i e a u o ə ɨ
 ```
 
-#### Missings
+#### Other Characters
 
 ```
-barred-l ɫ̓, tilde overlays, rare tonal marks
+̓ ɫ ʷ
 ```
 
 ---
@@ -272,10 +350,10 @@ barred-l ɫ̓, tilde overlays, rare tonal marks
 i e a u o ə
 ```
 
-#### Missings
+#### Other Characters
 
 ```
-glottalized fricatives, lateral affricates
+̓ ʷ
 ```
 
 ---
@@ -294,10 +372,10 @@ glottalized fricatives, lateral affricates
 i e a u o ə
 ```
 
-#### Missings
+#### Other Characters
 
 ```
-affricates, rare ejectives
+̓ ʷ
 ```
 
 ---
@@ -316,10 +394,10 @@ affricates, rare ejectives
 i e a u o ə
 ```
 
-#### Missings
+#### Other Characters
 
 ```
-lateral affricates with ejective or glottalization
+̓ ʷ
 ```
 
 ---
@@ -338,10 +416,10 @@ lateral affricates with ejective or glottalization
 i e a u o ə
 ```
 
-#### Missings
+#### Other Characters
 
 ```
-rare diacritics or glottalized consonants
+̓ ʷ
 ```
 
 ---
@@ -360,10 +438,10 @@ rare diacritics or glottalized consonants
 i e a u o ə
 ```
 
-#### Missings
+#### Other Characters
 
 ```
-barred-l, rare tonal diacritics
+̓ ʷ
 ```
 
 ---
@@ -382,10 +460,10 @@ barred-l, rare tonal diacritics
 i e a u o ə
 ```
 
-#### Missings
+#### Other Characters
 
 ```
-glottalized affricates and lateral consonants
+̓ ʷ
 ```
 
 ---
@@ -404,10 +482,10 @@ glottalized affricates and lateral consonants
 i e a u o ə
 ```
 
-#### Missings
+#### Other Characters
 
 ```
-ejective lateral affricates, rare consonant clusters
+̓ ʷ
 ```
 
 ---
@@ -426,10 +504,10 @@ ejective lateral affricates, rare consonant clusters
 i e a u o ə
 ```
 
-#### Missings
+#### Other Characters
 
 ```
-affricates and glottalized combinations
+̓ ʷ
 ```
 
 ---
@@ -448,10 +526,10 @@ affricates and glottalized combinations
 i e a u o ə
 ```
 
-#### Missings
+#### Other Characters
 
 ```
-affricates, lateral ejectives
+̓ ʷ
 ```
 
 ---
@@ -470,10 +548,10 @@ affricates, lateral ejectives
 i e a u o ə
 ```
 
-#### Missings
+#### Other Characters
 
 ```
-glottalized consonants and lateral affricates
+̓ ʷ
 ```
 
 ---
@@ -492,10 +570,10 @@ glottalized consonants and lateral affricates
 i e a u o ə
 ```
 
-#### Missings
+#### Other Characters
 
 ```
-affricates and rare ejectives
+̓ ʷ
 ```
 
 ---
@@ -514,10 +592,10 @@ affricates and rare ejectives
 i e a u o ə
 ```
 
-#### Missings
+#### Other Characters
 
 ```
-glottalized consonants
+̓ ʷ
 ```
 
 ---
@@ -536,10 +614,10 @@ glottalized consonants
 i e a u o ə
 ```
 
-#### Missings
+#### Other Characters
 
 ```
-affricates, glottalized consonants
+̓ ʷ
 ```
 
 ---
@@ -558,10 +636,10 @@ affricates, glottalized consonants
 i e a u o ə
 ```
 
-#### Missings
+#### Other Characters
 
 ```
-rare glottalized consonants
+̓ ʷ
 ```
 
 ---
@@ -580,10 +658,10 @@ rare glottalized consonants
 i e a u o ə
 ```
 
-#### Missings
+#### Other Characters
 
 ```
-barred-l, glottalized lateral affricates
+̓ ʷ
 ```
 
 ---
@@ -602,10 +680,10 @@ barred-l, glottalized lateral affricates
 i e a u o ə
 ```
 
-#### Missings
+#### Other Characters
 
 ```
-rare affricates and glottalized consonants
+̓ ʷ
 ```
 
 ---
