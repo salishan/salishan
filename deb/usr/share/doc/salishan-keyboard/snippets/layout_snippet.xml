@@ -3,39 +3,5 @@
     <name>salishan</name>
     <shortDescription>sal</shortDescription>
     <description>Salishan</description>
-    <languageList>
-        <iso639Id>sal</iso639Id>        <!-- general Salishan -->
-        <iso639Id>spk</iso639Id>        <!-- Spokane Salish / Npoqín̓ešcn -->
-        <iso639Id>qlp</iso639Id>        <!-- Kalispel–Pend d’Oreille / Ql̓ispé -->
-        <iso639Id>col</iso639Id>        <!-- Colville–Okanagan / N̓səl̓xčín -->
-        <iso639Id>snx</iso639Id>        <!-- Sinixt / Sn̓ʕaýɫłcx -->
-        <iso639Id>crd</iso639Id>        <!-- Coeur d’Alene / Snchitsu’umshtsn -->
-        <iso639Id>sec</iso639Id>        <!-- Shuswap / Secwepemctsín -->
-        <iso639Id>tnr</iso639Id>        <!-- Thompson River Salish / Nłeʔkepmxcín -->
-        <iso639Id>nlk</iso639Id>        <!-- Nlaka'pamux / Ntlakapmuk -->
-        <iso639Id>nux</iso639Id>        <!-- Nuxalk / ƛ̓ ɬ̓ ʕ ... -->
-        <iso639Id>hul</iso639Id>        <!-- Halkomelem / hən̓q̓əmin̓əm̓ -->
-        <iso639Id>saa</iso639Id>        <!-- Straits Salish / SENĆOŦEN -->
-        <iso639Id>skw</iso639Id>        <!-- Squamish / Sḵwx̱wú7mesh -->
-        <iso639Id>kom</iso639Id>        <!-- Comox / ɬaʔamɩn -->
-        <iso639Id>shs</iso639Id>        <!-- Sechelt / Sháshílt -->
-        <iso639Id>lus</iso639Id>        <!-- Lushootseed / dxʷləšucid -->
-        <iso639Id>nuk</iso639Id>        <!-- Nooksack / Noxwsʼáḵ -->
-        <iso639Id>pnt</iso639Id>        <!-- Pentlatch -->
-        <iso639Id>cla</iso639Id>        <!-- Klallam / Nəxʷsƛ̓ámlum -->
-        <iso639Id>nrs</iso639Id>        <!-- Northern Straits -->
-        <iso639Id>twn</iso639Id>        <!-- Twana -->
-        <iso639Id>tsm</iso639Id>        <!-- Tsamosan -->
-        <iso639Id>ind</iso639Id>        <!-- Inland division -->
-        <iso639Id>cwl</iso639Id>        <!-- Cowlitz -->
-        <iso639Id>uch</iso639Id>        <!-- Upper Chehalis -->
-        <iso639Id>mdv</iso639Id>        <!-- Maritime division -->
-        <iso639Id>lch</iso639Id>        <!-- Lower Chehalis -->
-        <iso639Id>qui</iso639Id>        <!-- Quinault -->
-        <iso639Id>til</iso639Id>        <!-- Tillamook -->
-        <iso639Id>lil</iso639Id>        <!-- Lillooet -->
-        <iso639Id>clm</iso639Id>        <!-- Columbia-Moses -->
-        <iso639Id>msl</iso639Id>        <!-- Montana Salish -->
-    </languageList>
   </configItem>
 </layout>
