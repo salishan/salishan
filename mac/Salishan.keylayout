@@ -1,15 +1,28 @@
-<?xml version="1.1" encoding="UTF-8"?>
-<!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE keyboard SYSTEM "KeyboardLayout.dtd">
 <keyboard group="0" id="20000" name="Salishan" maxout="4">
+    <modifierKeys default="0"/>
+    <languages>
+        <language id="0"/>
+    </languages>
+    <info>
+        <name>Salishan</name>
+        <language>en</language>
+    </info>
+
     <layouts>
         <layout first="0" last="0" mapSet="0" modifiers="defaultModifiers"/>
     </layouts>
 
     <modifierMap id="defaultModifiers" defaultIndex="0">
-        <keyMapSelect mapIndex="0"/> <!-- Base -->
-        <keyMapSelect mapIndex="1" modifiers="anyShift"/> <!-- Shift -->
-        <keyMapSelect mapIndex="2" modifiers="rightOption"/> <!-- Right Alt (AltGr) -->
-        <keyMapSelect mapIndex="3" modifiers="rightOption anyShift"/> <!-- Shift + AltGr -->
+        <keyMapSelect mapIndex="0"/>
+        <!-- Base -->
+        <keyMapSelect mapIndex="1" modifiers="anyShift"/>
+        <!-- Shift -->
+        <keyMapSelect mapIndex="2" modifiers="rightOption"/>
+        <!-- Right Alt (AltGr) -->
+        <keyMapSelect mapIndex="3" modifiers="rightOption anyShift"/>
+        <!-- Shift + AltGr -->
     </modifierMap>
 
     <keyMapSet id="0">
@@ -19,7 +32,8 @@
         ============================================================ -->
         <keyMap index="0">
             <!-- NUMBER ROW -->
-            <key code="50" output="`"/> <!-- TLDE -->
+            <key code="50" output="`"/>
+            <!-- TLDE -->
             <key code="18" output="1"/>
             <key code="19" output="2"/>
             <key code="20" output="3"/>
@@ -134,8 +148,10 @@
              KEYMAP 2 — RIGHT OPTION (LEVEL 3)
         ============================================================ -->
         <keyMap index="2">
-            <key code="25" output="‿"/> <!-- U203F -->
-            <key code="29" output="·"/> <!-- U00B7 -->
+            <key code="25" output="‿"/>
+            <!-- U203F -->
+            <key code="29" output="·"/>
+            <!-- U00B7 -->
 
             <key code="12" output="θ"/>
             <key code="13" output="ʷ"/>
@@ -177,7 +193,8 @@
              KEYMAP 3 — SHIFT + RIGHT OPTION (LEVEL 4)
         ============================================================ -->
         <keyMap index="3">
-            <key code="31" output="Ɂ"/> <!-- Shift+AltGr o -->
+            <key code="31" output="Ɂ"/>
+            <!-- Shift+AltGr o -->
         </keyMap>
 
     </keyMapSet>
