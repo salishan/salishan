@@ -34,14 +34,14 @@ xkb_symbols "basic" {
 
     // Home row
     key <AC01> {[ a, A, U023A ]};
-    key <AC02> {[ s, S, U026C ]};
+    key <AC02> {[ s, S, U026C, U0142 ]};
     key <AC03> {[ d, D, U026B ]};
     key <AC04> {[ f, F, U0283 ]};
     key <AC05> {[ g, G, U0262 ]};
     key <AC06> {[ h, H, U0259 ]};
     key <AC07> {[ j, J, U0269 ]};
     key <AC08> {[ k, K, U026F ]};
-    key <AC09> {[ l, L, U019B ]};
+    key <AC09> {[ l, L, U019B, U0142 ]};
     key <AC10> {[ semicolon, colon, U02A6 ]};
     key <AC11> {[ apostrophe, quotedbl, U02BC ]};
 
