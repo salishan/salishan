@@ -6,6 +6,6 @@
 
 ![Salishan keyboard](metadata/keyboard.webp)
 
-A guiding principle behind this keyboard is **flexibility**. Many people today speak or write in multiple languages at the same time—especially in messaging apps. With this layout, you can **type in Spokane Salish, English, or other supported languages without switching keyboards** or interrupting the flow of conversation.
+A guiding principle behind this keyboard is **flexibility**. Many people today speak or write in multiple languages at the same time (especially in messaging apps). With this layout, you can **type in Spokane Salish, English, or other supported languages without switching keyboards** or interrupting the flow of conversation.
 
 For example, you might chat with friends in Spokane Salish while also messaging relatives who use only English. The **Salishan Keyboard** keeps the transition between both conversations smooth by preserving the full English keyboard and adding Salishan features only when you need them.
